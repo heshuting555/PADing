@@ -17,6 +17,7 @@ The code is tested under CUDA 11.2, Pytorch 1.9.0 and Detectron2 0.6.
 
 1. Install [Detectron2](https://github.com/facebookresearch/detectron2) following the [manual](https://detectron2.readthedocs.io/en/latest/)
 2. Run `sh make.sh` under `PADing/modeling/pixel_decoder/ops`
+(Note: 1-2 steps you can also follow the installation process of [Mask2Former](https://github.com/facebookresearch/Mask2Former))
 3. Install other required packages: `pip install -r requirements.txt`
 4. Prepare the dataset following `datasets/README.md`
 
